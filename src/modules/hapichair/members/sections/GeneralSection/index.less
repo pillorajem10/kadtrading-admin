@@ -1,0 +1,48 @@
+.add-member {
+  &-dimension-input {
+    display: inline-block;
+    width: calc(100% / 3 - 8px);
+    margin: 0;
+
+    &:nth-child(2) {
+      margin: 0 12px;
+    }
+  }
+
+  &-delivery-option-card {
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    background-color: #ffffff;
+    margin-bottom: 14px;
+    padding: 15px;
+
+    & > div {
+      display: flex;
+
+      & > div {
+        font-size: 12px;
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.65);
+      }
+
+      & > div:first-child {
+        width: 70%;
+      }
+
+      & > div:last-child {
+        width: 30%;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-delivery-option-name {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 4px;
+  }
+}

@@ -1,0 +1,46 @@
+.container {
+  display: inline-block;
+  padding: 8px;
+  margin: 4px;
+  border: 1px dotted black;
+
+  &:hover .iconContainer {
+    opacity: 1;
+    transition: 0.3s ease;
+  }
+}
+
+.image {
+  width: 104px;
+  height: 104px;
+  object-fit: cover;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.68);
+}
+
+.icon {
+  color: rgba(255, 255, 255, 0.7);
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.dangerIcon {
+  color: #ffa39e;
+
+  &:hover {
+    color: #ff4d4f;
+  }
+}

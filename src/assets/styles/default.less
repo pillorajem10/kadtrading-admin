@@ -1,0 +1,372 @@
+@font-face {
+  font-family: 'Apercu';
+  font-weight: normal;
+  src: local('Apercu'), url('../fonts/Apercu.ttf');
+}
+
+@font-face {
+  font-family: 'ApercuBold';
+  font-weight: bold;
+  src: local('ApercuBold'), url('../fonts/ApercuBold.otf');
+}
+
+@import '~antd/dist/antd.less';
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+td {
+  vertical-align: middle;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: 'Apercu', 'ApercuBold', sans-serif !important;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ant-switch-checked {
+  background-color: #3dbd7d;
+}
+
+.flex-center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-start-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-end-center {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.flex-center-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-center-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flex-center-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center-space-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-start-space-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-end-space-between {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
+.pt-8 {
+  margin-top: 8px;
+}
+
+.pr-8 {
+  margin-right: 8px;
+}
+
+.pb-8 {
+  margin-bottom: 8px;
+}
+
+.pl-8 {
+  margin-left: 8px;
+}
+
+.pt-16 {
+  margin-top: 16px;
+}
+
+.pr-16 {
+  margin-right: 16px;
+}
+
+.pb-16 {
+  margin-bottom: 16px;
+}
+
+.pl-16 {
+  margin-left: 16px;
+}
+
+.pt-24 {
+  margin-top: 24px;
+}
+
+.pr-24 {
+  margin-right: 24px;
+}
+
+.pb-24 {
+  margin-bottom: 24px;
+}
+
+.pl-24 {
+  margin-left: 24px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.details-section {
+  &-container {
+    padding: 24px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+
+    &-title {
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    &-grid-half-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 10px;
+
+      & .ant-input-number {
+        width: 100%;
+      }
+    }
+  }
+
+  &-header {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 10px 0;
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+// override antd styling
+.ant-modal {
+  top: 64px;
+}
+
+.ant-modal-body {
+  max-height: calc(100vh - 183px);
+  overflow-y: auto;
+}

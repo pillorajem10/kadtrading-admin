@@ -1,0 +1,250 @@
+
+.loginLayout {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  object-fit: cover;
+  background-position: center;
+
+  & .ant-tabs {
+    width: 100%;
+  }
+
+
+  & .ant-tabs-tab {
+    margin: 0 32px;
+  }
+
+  & .ant-tabs-ink-bar {
+    background-color: #ffa300;
+  }
+}
+
+.loginFormLayout {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 30rem;
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  text-align: left;
+  /*
+$bp-mobile: 300px;
+$bp-tablet: 768px;
+$bp-desktop: 992px;
+$bp-large-desktop: 1200px;
+$bp-xlarge-desktop: 1440px;
+  */
+
+  ///////////////////////
+  //maroon, red, orange, violet, gold
+  @media (min-width: 1366) {
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  //TABLET
+  @media (max-width: 992px) {
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 990px) and (min-width: 875px) {
+    background: bronze !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 876px) and (min-width: 766px) {
+    background: magenta !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 767px) and (min-width: 676px) {
+    background: pink !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 675px) and (min-width: 576px) {
+    background: purple !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 575px) and (min-width: 476px) {
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 475px) and (min-width: 375px) {
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  //MOBILE
+  @media (max-height: 812px) and (max-width: 475px) and (min-width: 375px) {
+    background: salmon !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-width: 374px) and (min-width: 320px) {
+    background: silver !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @media (max-height: 568px) and (max-width: 374px) and (min-width: 320px) {
+    background: teal !important;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  //galaxy s5, pixel2, pixel2XL, iphone5/se, iphone678,
+  @media (max-width: 319px) and (min-width: 300px) {
+    background: red;
+    height: 70%;
+    top: 12%;
+    right: 5%;
+    text-align: left;
+  }
+
+  @include upto(mobile) {
+    background: maroon;
+    max-width: 240px;
+    height: 48px;
+    font-size: 20px;
+    letter-spacing: 0.65px;
+    text-align: center;
+    margin: 24px auto 8px auto !important;
+  }
+  //////////////////////
+}
+
+.loginRole {
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.loginHeader {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 30px;
+  padding: 0px 41px;
+}
+
+.imgLogo {
+  /*
+  width: 13rem;
+  height: 5rem;
+  padding: 8px;
+  margin: 28px;
+  */
+  padding: 8px;
+  margin: 10px 28px 10px 28px;
+  width: 30%;
+  height: 30%;
+}
+
+
+.input{
+  width: 30rem;
+}
+
+.footer{
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  font-size: 12px;
+}
+
+
+.cta {
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+
+/*
+@media screen
+  and (min-device-width: 1400px)
+  and (max-device-width: 2000px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .rptgenLogo{
+    margin-left: 53rem;
+    }
+
+    .login{
+      &-form-layout {
+        width: 30rem;
+        margin-left: 54rem;
+      }
+    }
+
+
+}
+
+@media only screen
+and (min-device-width: 344px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .rptgenLogo1{
+    display: none;
+  }
+  .input{
+    width: 20rem;
+  }
+  .login{
+    &-form-layout {
+       margin-left: 1.35rem;
+       background-color: white;
+    }
+    &-header {
+      text-align: center;
+    }
+  }
+
+  .rptgenLogo{
+    width: 10rem;
+    margin-left: -12.5rem;
+  }
+
+
+}
+*/

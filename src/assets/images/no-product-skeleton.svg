@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_77" fill="none" d="M0 0H53.115V61.233H0z"/>
+        </clipPath>
+        <style>
+            .cls-2{fill:#f5f5f3}.cls-4{fill:#dcdcda}
+        </style>
+    </defs>
+    <g id="Logo_with_skeleton_Loading" transform="translate(149 145)">
+        <path id="Rectangle_79" d="M0 0H350V350H0z" class="cls-2" transform="translate(-149 -145)"/>
+        <g id="Wiz_logo" opacity="0.4" transform="translate(-1 -1)">
+            <path id="Path_29" d="M79.691 57.675l-13.108 7.533v-7.593l6.577-3.766V31.118l6.52 3.738z" class="cls-4" transform="translate(-33.434 -15.627)"/>
+            <path id="Path_30" d="M40.136 61.276l6.585 3.785V12l-6.582-3.79z" class="cls-4" transform="translate(-20.154 -4.123)"/>
+            <path id="Path_31" d="M.729 61.474l6.462 3.736V34.874L.729 31.117z" class="cls-4" transform="translate(-.365 -15.626)"/>
+            <path id="Path_32" d="M33.384 53.992l-6.7 3.836.006 7.6 6.691-3.88z" class="cls-4" transform="translate(-13.4 -27.113)"/>
+            <path id="Path_33" d="M73.273 95.447h-.587v-7.384l-6.463-3.741.295-.509 6.756 3.911z" class="cls-4" transform="translate(-33.254 -42.089)"/>
+            <g id="Group_131">
+                <g id="Group_130" clip-path="url(#clip-path)">
+                    <path id="Path_34" d="M6.862 61.355a.293.293 0 0 1-.147-.039L.147 57.51A.293.293 0 0 1 0 57.256l.045-30.322a.294.294 0 0 1 .146-.253L6.723 22.9a.29.29 0 0 1 .294 0l6.538 3.785a.294.294 0 0 1 .146.253l.018 30.316a.293.293 0 0 1-.146.254l-6.564 3.81a.3.3 0 0 1-.147.039m-6.274-4.27l6.274 3.635 6.271-3.64-.019-29.982-6.244-3.611L.632 27.1z" class="cls-4" transform="translate(0 -11.477)"/>
+                    <path id="Path_35" d="M46.424 61.233a.3.3 0 0 1-.147-.039L39.7 57.4a.294.294 0 0 1-.147-.254V4.087a.3.3 0 0 1 .147-.254L46.282.039a.3.3 0 0 1 .294 0l6.579 3.8a.3.3 0 0 1 .145.261v53.041a.3.3 0 0 1-.147.254l-6.582 3.8a.3.3 0 0 1-.147.039m-6.283-4.255l6.283 3.621 6.289-3.629V4.265L46.428.633l-6.287 3.623z" class="cls-4" transform="translate(-19.863)"/>
+                    <path id="Path_36" d="M86.121 50.132L79.38 46.22l.3-.508 6.445 3.741 6.419-3.74.3.508z" class="cls-4" transform="translate(-39.862 -22.955)"/>
+                    <path id="Path_37" d="M86.132 65.36l-6.716-3.86.293-.509 6.423 3.692 6.406-3.7.294.509z" class="cls-4" transform="translate(-39.88 -30.624)"/>
+                    <path id="Path_38" d="M86.153 80.613l-6.717-3.879.294-.508 6.422 3.709 6.4-3.708.294.508z" class="cls-4" transform="translate(-39.891 -38.278)"/>
+                    <path id="Path_39" d="M86.111 34.9L79.4 31.037l.293-.509 6.42 3.694 6.429-3.7.293.509z" class="cls-4" transform="translate(-39.871 -15.325)"/>
+                    <path id="Path_40" d="M46.593 72.983l-6.7-3.883.294-.508 6.406 3.708L53 68.6l.294.509z" class="cls-4" transform="translate(-20.031 -34.445)"/>
+                    <path id="Path_41" d="M46.6 103.441l-6.71-3.895.3-.508 6.415 3.723 6.423-3.716.294.509z" class="cls-4" transform="translate(-20.032 -49.735)"/>
+                    <path id="Path_42" d="M46.6 57.748l-6.7-3.865.294-.509 6.409 3.7 6.4-3.7.294.508z" class="cls-4" transform="translate(-20.035 -26.8)"/>
+                    <path id="Path_43" d="M7.109 80.594L.481 76.747l.295-.508 6.334 3.676 6.416-3.71.294.509z" class="cls-4" transform="translate(-.241 -38.268)"/>
+                    <path id="Path_44" d="M7.012 65.363l-6.728-3.9.295-.508 6.433 3.726 6.514-3.764.294.508z" class="cls-4" transform="translate(-.143 -30.592)"/>
+                    <path id="Path_45" d="M7.011 50.152l-6.729-3.89.294-.508 6.435 3.719 6.414-3.715.295.508z" class="cls-4" transform="translate(-.141 -22.976)"/>
+                    <path id="Path_46" d="M7.068 34.917L.429 31.085l.294-.509 6.345 3.663 6.409-3.7.294.509z" class="cls-4" transform="translate(-.215 -15.335)"/>
+                    <path id="Path_47" d="M46.59 42.538l-6.712-3.869.293-.509 6.418 3.7 6.418-3.711.294.509z" class="cls-4" transform="translate(-20.026 -19.157)"/>
+                    <path id="Path_48" d="M46.591 27.315l-6.713-3.872.293-.509 6.419 3.7 6.416-3.7.294.509z" class="cls-4" transform="translate(-20.026 -11.517)"/>
+                    <path id="Path_49" d="M46.591 12.082l-6.71-3.875.294-.509 6.417 3.7 6.418-3.7.293.509z" class="cls-4" transform="translate(-20.027 -3.866)"/>
+                    <path id="Rectangle_67" d="M0 0H0.587V30.549H0z" class="cls-4" transform="translate(45.951 18.958)"/>
+                    <path id="Rectangle_68" d="M0 0H0.587V52.991H0z" class="cls-4" transform="translate(26.271 8.03)"/>
+                    <path id="Rectangle_69" d="M0 0H15.608V0.588H0z" class="cls-4" transform="matrix(.865 -.501 .501 .865 33 56.893)"/>
+                    <path id="Rectangle_70" d="M0 0H15.145V0.587H0z" class="cls-4" transform="rotate(-29.89 108.865 -37.156)"/>
+                    <path id="Rectangle_71" d="M0 0H7.585V0.587H0z" class="cls-4" transform="rotate(-29.89 94.7 -40.91)"/>
+                    <path id="Path_50" d="M46.582 88.214l-6.73-3.873.293-.509 6.436 3.7 6.419-3.7.293.509z" class="cls-4" transform="translate(-20.013 -42.098)"/>
+                    <path id="Rectangle_72" d="M0 0H0.587V30.314H0z" class="cls-4" transform="translate(6.531 19.31)"/>
+                    <path id="Path_51" d="M86.182 61.287l-.294-.509 6.409-3.7.003-29.985-6.269-3.625-6.241 3.659v22.541h-.587v-22.71a.294.294 0 0 1 .145-.253l6.534-3.83a.3.3 0 0 1 .3 0l6.563 3.8a.3.3 0 0 1 .147.254l-.006 30.322a.3.3 0 0 1-.147.254z" class="cls-4" transform="translate(-39.775 -11.467)"/>
+                    <path id="Rectangle_73" d="M0 0H7.588V0.587H0z" class="cls-4" transform="rotate(-29.95 77.626 -5.875)"/>
+                    <path id="Rectangle_74" d="M0 0H12.082V0.588H0z" class="cls-4" transform="rotate(-29.998 93.857 6.386)"/>
+                    <path id="Rectangle_75" d="M0 0H7.487V0.587H0z" class="cls-4" transform="rotate(-29.62 64.01 -10.14)"/>
+                    <path id="Rectangle_76" d="M0 0H0.587V7.615H0z" class="cls-4" transform="rotate(-60.08 33.302 3.968)"/>
+                    <path id="Path_52" d="M80.385 62.365l5.875 3.377v-.678l-5.875-3.377z" class="cls-2" transform="translate(-40.367 -30.978)"/>
+                    <path id="Path_53" d="M80.385 47.1l5.875 3.41v-.68l-5.875-3.409z" class="cls-2" transform="translate(-40.367 -23.313)"/>
+                    <path id="Path_54" d="M67.166 85.031v.32l5.556 3.216.588-.338-5.832-3.377z" class="cls-2" transform="translate(-33.729 -42.61)"/>
+                    <path id="Path_55" d="M80.108 76.9v.363l-.274.157 5.956 3.44.252-.137.012-.414z" class="cls-2" transform="translate(-40.091 -38.619)"/>
+                    <path id="Path_56" d="M40.734 100.335l5.992 3.478v-.68l-5.992-3.478z" class="cls-2" transform="translate(-20.455 -50.044)"/>
+                    <path id="Path_57" d="M40.734 85.15l5.992 3.45v-.678l-5.992-3.448z" class="cls-2" transform="translate(-20.455 -42.42)"/>
+                    <path id="Path_58" d="M40.734 54.672l5.992 3.455v-.678l-5.992-3.455z" class="cls-2" transform="translate(-20.455 -27.114)"/>
+                    <path id="Path_59" d="M40.734 23.56v.679l5.992 3.456v-.678z" class="cls-2" transform="translate(-20.455 -11.831)"/>
+                    <path id="Path_60" d="M40.734 69.891l5.992 3.47v-.679l-5.992-3.47z" class="cls-2" transform="translate(-20.455 -34.756)"/>
+                    <path id="Path_61" d="M40.734 39.476l5.992 3.453v-.678L40.734 38.8z" class="cls-2" transform="translate(-20.455 -19.483)"/>
+                    <path id="Path_62" fill="#fff" d="M27.517 62.134v.336l5.727 3.3.265-.185v-.34l-5.692-3.279z" transform="translate(-13.818 -31.117)"/>
+                    <path id="Path_63" d="M1.319 77.568l5.875 3.409V80.3l-5.875-3.411z" class="cls-2" transform="translate(-.662 -38.611)"/>
+                    <path id="Path_64" d="M1.319 46.483v.679l5.875 3.4v-.679z" class="cls-2" transform="translate(-.662 -23.342)"/>
+                    <path id="Path_65" d="M1.319 62.4l5.875 3.4v-.679l-5.875-3.4z" class="cls-2" transform="translate(-.662 -30.996)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

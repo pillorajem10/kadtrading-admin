@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+
+  & > div:first-child {
+    width: calc(100% - 340px) !important;
+    margin-right: 10px;
+  }
+
+  & > div:last-child {
+    width: 340px;
+  }
+
+  :global(.ant-input-number) {
+    width: 100%;
+  }
+}

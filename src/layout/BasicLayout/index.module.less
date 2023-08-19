@@ -1,0 +1,65 @@
+.logo {
+  height: 13rem;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 20px;
+}
+
+.imgLogo {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #1890ff;
+  }
+}
+
+.basicLayoutSider {
+  height: 100vh;
+  position: fixed !important;
+  left: 0;
+}
+
+.basicLayoutHeader {
+  background-color: #ffffff !important;
+  width: 100%;
+  padding: 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basicLayoutAvatar {
+  cursor: pointer;
+  padding: 0 24px;
+}
+
+.basicLayoutContent {
+  margin: 64px 0 0;
+  padding: 0;
+  overflow: initial;
+  min-height: calc(100vh - 120px) !important;
+}
+
+.basicLayoutFooter {
+  padding: 21px !important;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

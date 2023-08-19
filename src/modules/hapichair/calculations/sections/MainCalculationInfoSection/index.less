@@ -1,0 +1,28 @@
+.add-member-container {
+  .grid-half-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  .grid-tri-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    margin-right: 10px;
+  }
+  .grid-quad-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+  }
+}
+
+.member-num-input {
+  width: 80%;
+  .ant-input-number-handler-wrap {
+    display: none;
+  }
+  .ant-input-number-input {
+    text-align: right;
+  }
+}
